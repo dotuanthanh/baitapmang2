@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    x = prompt('nhap chuoi')
+    arr = x.split(" ")
+    let count = 0
+    for (let i = 0; i < arr.length; i++) {
+        if (isNaN(arr[i]) && arr[i] != ',') {
+            count++
+        }
+    }
+    alert("so tu trong chuoi la " + count)
+</script>

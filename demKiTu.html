@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<Script>
+    n=prompt("nhap a[n]")
+    let arr=[]
+    for (let i = 0; i < n; i++) {
+        arr[i] = prompt('nhap a' + '[' + i + ']')
+
+    } count=0
+    for(let i=0;i<arr.length;i++){
+        if(isNaN(arr[i])){
+            count++
+        }
+    }
+    alert("so ki tu la "+' '+count)
+</Script>
